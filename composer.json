@@ -1,0 +1,21 @@
+{
+  "name": "brenik/personal",
+  "description": "Magento2 module Personal",
+  "type": "magento2-module",
+  "homepage": "https://github.com/brenik/personal",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "Personal",
+      "email": "herr.xox@gmail.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Brenik\\Personal\\": ""
+    }
+  }
+}
