@@ -9,9 +9,5 @@
         <add id="Brenik_Personal::personal_processing" parent="Brenik_Personal::personal" sortOrder="20" title="Processing" translate="title" module="Brenik_Personal" resource="Brenik_Personal::personal_processing" />
         <add id="Brenik_Personal::personal_report" parent="Brenik_Personal::personal" sortOrder="30" title="Reports" translate="title" module="Brenik_Personal" resource="Brenik_Personal::personal_report" />
         <add id="Brenik_Personal::personal_dictionary" parent="Brenik_Personal::personal" sortOrder="40" title="Dictionaries" translate="title" module="Brenik_Personal" resource="Brenik_Personal::personal_dictionary" />
-<!--        <add id="Bobbie_GridExtra::bobbie_help_keys" title="Show Hot Keys" translate="title" module="Bobbie_GridExtra" sortOrder="10" parent="Bobbie_GridExtra::bobbie_help" action="help/hotkeys/" resource="Bobbie_GridExtra::bobbie_help_keys"/>-->
-<!--        <add id="Bobbie_GridExtra::bobbie_help_hints" title="Show Hints" translate="title" module="Bobbie_GridExtra" sortOrder="20" parent="Bobbie_GridExtra::bobbie_help" action="help/hints/" resource="Bobbie_GridExtra::bobbie_help_hints"/>-->
-
-
     </menu>
 </config>
