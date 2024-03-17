@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+  ~ @author      Herr Xox <herr.xox@gmail.com>
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Acl/etc/acl.xsd">
+    <acl>
+        <resources>
+            <resource id="Magento_Backend::admin">
+                <resource id="Brenik_Personal::personal" title="Search" translate="title" sortOrder="100">
+                    <resource id="Brenik_Personal::personal_documents" title="Documents" translate="title" sortOrder="10" />
+                    <resource id="Brenik_Personal::personal_processing" title="Processing" translate="title" sortOrder="20" />
+                    <resource id="Brenik_Personal::personal_report" title="Report" translate="title" sortOrder="30" />
+                    <resource id="Brenik_Personal::personal_dictionary" title="Dictionaries" translate="title" sortOrder="30" />
+                </resource>
+            </resource>
+        </resources>
+    </acl>
+</config>

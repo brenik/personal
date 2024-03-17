@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!--
+  ~ @author      Herr Xox <herr.xox@gmail.com>
+  -->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../lib/internal/Magento/Framework/App/etc/routes.xsd">
+    <router id="admin">
+        <route id="personal" frontName="personal">
+            <module name="Brenik_Personal" before="Magento_Adminhtml" />
+        </route>
+    </router>
+</config>
